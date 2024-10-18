@@ -1,5 +1,7 @@
+using System;
 using Unity.Netcode;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -83,4 +85,5 @@ public class GameManager : MonoBehaviour
         NetworkManager.Singleton.Shutdown();
         Debug.Log("Server shut down successfully");
     }
+
 }
